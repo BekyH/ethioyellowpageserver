@@ -1,0 +1,20 @@
+{
+  "MongoDB": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "companies",
+    "password": "",
+    "name": "MongoDB",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "gridfs": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "companies",
+    "name": "gridfs",
+    "connector": "loopback-component-storage-mongo"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "MongoDB"
+  },
+  "AccessToken": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "MongoDB",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "banks": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Ict": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Hotel": {
+    "dataSource": "MongoDB",
+    "public": false
+  },
+  "cements": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "sekuar": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "s": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "image": {
+    "dataSource": "gridfs",
+    "public": true
+  },
+  "feedback": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "industries": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "transport": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Health": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "construction": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "communication": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "technology": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "tourism": {
+    "dataSource": "MongoDB",
+    "public": true
+  }
+}
