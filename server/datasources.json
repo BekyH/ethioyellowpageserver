@@ -16,5 +16,11 @@
     "database": "companies",
     "name": "gridfs",
     "connector": "loopback-component-storage-mongo"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage",
+    "provider":"filesystem",
+    "root":"./server/local-storage"
   }
 }

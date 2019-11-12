@@ -1,39 +1,14 @@
 {
-  "name": "communication",
-  "base": "PersistedModel",
+  "name": "Account",
+  "plural": "accounts",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "phoneNo": {
-      "type": "string",
-      "required": true
-    },
-    "email": {
-      "type": "string",
-      "required": true
-    },
-    "city": {
-      "type": "string",
-      "required": true
-    }
-  },
+  "properties": {},
   "validations": [],
-  "relations": {
-    "commuaccoutn": {
-      "type": "hasOne",
-      "model": "Account",
-      "foreignKey": "commu_id",
-      "options": {
-        "nestRemoting": true
-      }
-    }
-  },
+  "relations": {},
   "acls": [
     {
       "accessType": "*",

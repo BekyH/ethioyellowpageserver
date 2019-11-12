@@ -94,5 +94,13 @@
   "tourism": {
     "dataSource": "MongoDB",
     "public": true
+  },
+  "Account": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Container": {
+    "dataSource": "local-storage",
+    "public": true
   }
 }
